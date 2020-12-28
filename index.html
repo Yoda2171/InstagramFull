@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-instagram" width="30" height="30" class="d-inline-block align-top" alt=""></i>
+                Instagram
+            </a>
+            <form class="form-inline">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a
+                    new post</button>
+
+                <!-- Modal -->
+                <!-- dropdown -->
+                <div class="input-group">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog"></i></button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Log out</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </nav>
+        <!-- Navbar the last -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label"></label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-outline-secondary"><i class="fas fa-camera"></i></button>
+                        <button type="button" class="btn btn-outline-secondary"><i
+                                class="fas fa-map-marker-alt"></i></button>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+
+        <!-- two button -->
+        <div class="row justify-content-center">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active btn-outline-secondary " id="pills-home-tab" data-toggle="pill"
+                        href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i
+                            class="fas fa-th"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-outline-secondary" id="pills-profile-tab" data-toggle="pill"
+                        href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                            class="fas fa-stop"></i></a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                    <!-- galeria -->
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://img.huffingtonpost.com/asset/5dfa51db250000e10598e8b5.jpeg?cache=EwV93gtjT3&ops=1778_1000"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://static.wikia.nocookie.net/esstarwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20180105191224"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://media.revistagq.com/photos/5e045ff988d9060008f139b9/master/pass/jake-lloyd-interprete-anakin-skywalker-esquizofrenia.jpg"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://i.pinimg.com/originals/c7/28/6f/c7286f60b2cda9c158052cb60536a8d7.jpg"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/81HCJGn4HWL._AC_SL1500_.jpg"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://static.wikia.nocookie.net/esstarwars/images/0/0b/Ben_Kenobi.jpg/revision/latest/scale-to-width-down/340?cb=20170507133544"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="https://i.blogs.es/d1dc3c/mandalorian-pedro-pascal-episode-7-reckoning-disney/450_1000.jpg"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://www.elcomercio.com/files/article_main/uploads/2018/10/25/5bd1ebb9b9207.jpeg   "
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                        <div class="col-4">
+                            <img src="https://album.mediaset.es/eimg/10000/2020/11/22/clipping_rNunOh_da5e.jpg?w=480"
+                                class="img-fluid p-0 m-0 rounded-0 img-thumbnail w-100 h-100">
+                        </div>
+                    </div>
+                    <!-- galeria -->
+
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab ">
+                    
+                        <!-- instagram -->
+                        <div class="card w-50 ml-auto mr-auto mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title<span class="card-text"><small class="text-muted float-right">Last updated 3 mins ago</small></span></h5>
+                                           
+                            </div>
+                            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/11/star-wars-nueva-esperanza-luke-skywalker.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-footer">
+                                <h6>23 likes</h6>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p><i class="far fa-heart"></i><small class="text-muted"> Comment...</small></p>
+                            </div>
+                        </div>
+                       
+                        
+                        <div class="card w-50 ml-auto mr-auto mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title<span class="card-text"><small class="text-muted float-right">Last updated 3 mins ago</small></span></h5>
+                            </div>
+                            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/08/han-solo-star-wars.jpg?itok=s3mpfYVR"
+                                class="card-img-top" alt="...">
+                            <div class="card-footer">
+                                <h6>23 likes</h6>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p><i class="far fa-heart"></i><small class="text-muted"> Comment...</small></p>
+                            </div>
+                        </div>
+                        <div class="card w-50 ml-auto mr-auto mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title<span class="card-text"><small class="text-muted float-right">Last updated 3 mins ago</small></span></h5>
+                            </div>
+                            <img src="https://as.com/baloncesto/imagenes/2020/05/01/reportajes/1588354101_504703_1588355392_noticiareportajes_grande.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-footer">
+                                <h6>23 likes</h6>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p><i class="far fa-heart"></i><small class="text-muted"> Comment...</small></p>
+                            </div>
+                        </div>   
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
